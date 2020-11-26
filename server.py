@@ -1,7 +1,7 @@
 ###############SERVER########################################
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-html = "<html><body>Hello from the Raspberry Pi</body></html>"
+html = "<html><body>Hello</body></html>"
 
 class ServerHandler(BaseHTTPRequestHandler):
     def do_GET(self):
